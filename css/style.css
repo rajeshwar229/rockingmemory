@@ -1,0 +1,179 @@
+/*Rocking Memory Styles*/
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+font-family: 'Dafunk_FREE';
+src: url('Dafunk_FREE.otf');
+}@font-face
+{
+font-family: 'Symbola';
+src: url('Symbola.ttf');
+}
+*{margin:0;padding:0;}
+html{
+  height: 100%;
+}
+body{
+	font-family: 'Dafunk_FREE';
+	background: rgb(215, 201, 182);
+	background: radial-gradient(white,rgb(215, 201, 182));
+	overflow-y:hidden;
+	color:#fff;
+	min-height:100%;
+	text-shadow: 0 1px 0 #ccc,
+		0 2px 0 #c9c9c9,
+		0 3px 0 #bbb,
+		0 4px 0 #b9b9b9,
+		0 5px 0 #aaa,
+		0 6px 1px rgba(0,0,0,.1),
+		0 0 5px rgba(0,0,0,.1),
+		0 1px 3px rgba(0,0,0,.3),
+		0 3px 5px rgba(0,0,0,.2),
+		0 5px 10px rgba(0,0,0,.25),
+		0 10px 10px rgba(0,0,0,.2),
+		0 20px 20px rgba(0,0,0,.15);
+}
+div[class^='icon']{
+  width:4%;
+  height:5%;
+  opacity:0.5;
+  display:inline-block;
+  margin:1%;
+  color:#000;
+  font-size:3em;
+}
+#wrapper{margin:0 auto;width:60%;}
+h1.entranceTitle{width: 84%;margin: 0 auto 10% auto;font-size: 4.5em;}
+.gameWrap h1.level{margin: 0 auto;width:22%;}
+div:hover{
+  opacity:1;
+}
+.levelSelect {
+  width: 47%;
+  margin: 0 auto;
+}
+.levelSelect label {
+  font-size: 1.6em;
+  margin: 0 5% 0 0;
+}
+.intro{
+	font-size:350%;
+	font-weight:bold;	
+	color:green;
+	background:-webkit-radial-gradient(45%,7em 10px,white,#100);
+	background:-moz-radial-gradient(580px 300px, ellipse,rgb(100%,100%,100%) 10%,rgba(60%,50%,60%,.9) 20%, rgba(0%,0%,0%,0.9) 40%);
+	width:100%;
+	height:768px;
+	text-shadow:5px 5px 5px white;
+}
+.intro span:first-child{
+	position:absolute;
+	top:-200px;
+	left:270px;
+	font-family: 'Dafunk_FREE';
+}
+.intro span:nth-child(2){
+	position:absolute;
+	top:300px;
+	left:100000px;
+	font-family: 'Dafunk_FREE';
+}
+.intro span:last-child{
+	position:absolute;
+	top:360px;
+	left:1400px;
+	font-size:70%;
+	color:#96c;
+	font-family: 'Dust Serif';
+}
+.entrance{
+	width:60%;
+	margin:5% auto;
+	display:none;
+}
+.helpPage{
+	width:66%;
+	margin:0 auto;
+	font-size:1.5em;
+	display:none;}	
+.helpPage img{
+	margin-left:15%;
+}	
+.helpPage button.back{width: 30%;padding: 0%;}
+.gameWrap{display:none;width:100%;height:100%;}
+.gameArea{
+  font-family: 'Symbola';
+  font-weight:bold;
+  background:#fff;
+  box-shadow:0px 0px 10px #666;
+  width:100%;
+  height:550px;
+  padding:10px;
+  margin:2% auto;
+  position:relative;
+ }
+ .cover{
+	background:#000;
+	width:0;
+	height:100%;
+	position:absolute;
+	right:0;
+	top:0;
+	z-index:2;
+}
+ .timeSpan{
+  width: 100%;
+  height: 20px;
+  background: rgb(121, 122, 166);
+  position:relative;
+}
+.gameOver{
+  display:none;
+  margin:20% auto; 
+  width:50%;
+}
+.gameOver h2{
+	font-size:4em;
+}
+.gameOver h3.finalScore, .gameOver h3.bestScore{
+	font-size:2em;
+	margin:5% auto;
+	width:60%;
+}
+button{
+	 display:block;
+	 margin:2% auto;
+	 color:rgb(42, 95, 165);
+	 background:#ac6;
+	 background:-webkit-linear-gradient(silver,grey);
+	 background:-moz-linear-gradient(#cc2,#ffe);
+	 border-radius:30px 1%;
+	 width:50%;
+	 font-size: 16px;
+	 box-shadow:5px 5px 10px #a33;
+	 font-family: 'Dafunk_FREE';
+	 letter-spacing:5px;
+	 padding: 2%;
+	 font-size: 1.5em;
+}
+button.retry,button.menu{
+	display:inline;
+	margin:2%;
+	width:45%;
+}
+button:hover{
+		background:#89a;
+        background:-webkit-linear-gradient(grey,silver);
+	    background:-moz-linear-gradient(#ffe,#cc2);
+	    color:gold;
+	    font-size: 18px;
+		box-shadow:0px 0px 25px white;
+		text-shadow:0px 0px 10px blue;
+		padding: 2%;
+		font-size: 1.5em;
+}
+.sprite{
+  cursor:pointer;
+}

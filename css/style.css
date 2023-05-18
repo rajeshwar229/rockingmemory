@@ -43,10 +43,10 @@ div[data-icon=true]:hover{
 @media (orientation: portrait) {
 
 	div[data-icon=true]{
-		font-size: 2rem;
-		height: 30px;
-		width: 15%;
-		margin: 1.3% 0.8%;
+		font-size: 1.7rem;
+		height: 31px;
+		width: 11%;
+		margin: 0.75%;
 	}
 }
 
@@ -55,7 +55,7 @@ div[data-icon=true]:hover{
 		font-size: 1.5rem;
 		width: 6%;
 		height: 30px;
-		margin: 0.3% 0.5%;
+		margin: 0.3%;
 	}
 
 	.help img{

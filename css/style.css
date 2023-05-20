@@ -38,10 +38,6 @@ div[data-icon=true]:hover{
 	width: 100%;
 }
 
-.more-games-link {
-	display: contents;
-}
-
 /*-----media queries-----*/
 
 @media (orientation: portrait) {
